@@ -4,13 +4,14 @@ import { getFirestore } from 'firebase/firestore';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyD_pAGfrLh3kNQz-UrCyHvCganH0oqpGns',
-  authDomain: 'abbb-e95ea.firebaseapp.com',
-  projectId: 'abbb-e95ea',
-  storageBucket: 'abbb-e95ea.firebasestorage.app',
-  messagingSenderId: '846219345131',
-  appId: '1:846219345131:web:38bb079306c7d51c5fd2ae',
-  measurementId: 'G-4DKQ003N49',
+  apiKey: "AIzaSyDhxG88L_y9pQtTrJWrBBg-0tDuMRdp7AU",
+  authDomain: "jahorsc.firebaseapp.com",
+  databaseURL: "https://jahorsc-default-rtdb.firebaseio.com",
+  projectId: "jahorsc",
+  storageBucket: "jahorsc.firebasestorage.app",
+  messagingSenderId: "467680981623",
+  appId: "1:467680981623:web:f92b78fe506017bf760c72",
+  measurementId: "G-BS1K64NRJQ",
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
